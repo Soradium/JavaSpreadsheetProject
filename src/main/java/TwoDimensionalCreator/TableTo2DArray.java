@@ -10,7 +10,7 @@ public class TableTo2DArray {
     int n = 2049;
     Set<Integer> keySet;
 
-    public int[] findMaxRowCol(TableDAO table) {
+    private int[] findMaxRowCol(TableDAO table) {
         int[] maxValues_ij = {0,0};
 
         keySet = table
